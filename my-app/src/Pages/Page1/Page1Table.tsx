@@ -9,7 +9,8 @@ const Page1Table=()=> {
     return (
         <div>
            <Table>
-               
+               dataSource={[]}
+               columns={[]}
               
            </Table>
         </div>
