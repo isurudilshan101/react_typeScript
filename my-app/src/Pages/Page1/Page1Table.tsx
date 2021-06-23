@@ -10,6 +10,7 @@ const Page1Table=()=> {
         <div>
            <Table>
                
+              
            </Table>
         </div>
     );
