@@ -1,15 +1,22 @@
-import React from 'react'
+import React from 'react';
+import Page2Inputs from './Page2Inputs';
 const Page2Right=()=> {
     return (
-        <div style={{display: "flex",
+        <div style={{ 
         padding: "0px",
         position: "absolute",
         width: "480px",
         height: "418px",
-        backgroundColor:"blue"
+        backgroundColor:"blue",
+        top:"25px",
+        left: "269px"
            }}
         >
-         aa   
+
+        <Page2Inputs/> 
+        
+
+        
         </div>
     )
 }
