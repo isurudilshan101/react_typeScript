@@ -7,7 +7,8 @@ import React,{FC} from 'react';
 
 const  App:FC=()=> {
   return (
-    <div className="App">
+
+    <div className="container">
       Hello
    <Header/>
     </div>
