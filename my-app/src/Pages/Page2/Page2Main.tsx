@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "antd";
+import Page2Right from './Page2Right';
 
 const Page2Main = () => {
   return (
@@ -22,11 +23,12 @@ const Page2Main = () => {
           height: "875px",
           left: "243px",
           top: "0px",
-
           background: "#E8E8E8",
+
+         
         }}
       ></Card>
-      <div>right</div>
+      <div><Page2Right/></div>
         </div>
     
     </div>

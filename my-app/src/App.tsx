@@ -1,7 +1,6 @@
 import React,{FC} from 'react';
  import './App.css';
- import Header from './Pages/Page1/Header';
-//  import MainContainer from './Pages/Page1/MainContainer';
+ //  import MainContainer from './Pages/Page1/MainContainer';
  import 'antd/dist/antd.css';
  import Page2Main from './Pages/Page2/Page2Main';
  
