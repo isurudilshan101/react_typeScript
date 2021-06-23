@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "antd";
 import Page2Right from './Page2Right';
+import Page2Left from './Page2Left';
 
 const Page2Main = () => {
   return (
@@ -15,7 +16,7 @@ const Page2Main = () => {
       }}
     >
         <div style={{display:"flex"}}>
-        <div>left</div>
+        <div style={{marginTop:"30px",marginLeft:"56px",}}><Page2Left/></div>
       <Card
         style={{
           position: "absolute",

@@ -1,6 +1,9 @@
 import React from 'react';
 import Page2Inputs from './Page2Inputs';
 import Page2TexrArea from './Page2TexrArea';
+import Page2ActiveButton from './Page2ActiveButton';
+import Page2SaveButton from './Page2SaveButton';
+import Page2CancelButton from './Page2CancelButton';
 
 const Page2Right=()=> {
     return (
@@ -16,14 +19,22 @@ const Page2Right=()=> {
         >
             <Page2Inputs/> 
             <Page2TexrArea/>
+            <Page2ActiveButton/>
+            <div >
+            <Page2SaveButton/>
+            <Page2CancelButton/>
+            </div>
+          
+            </div>
+       )
+    }
+    export default Page2Right;
+       
+
+          
+       
 
         
 
-        
 
-        
-        </div>
-    )
-}
 
-export default Page2Right;
