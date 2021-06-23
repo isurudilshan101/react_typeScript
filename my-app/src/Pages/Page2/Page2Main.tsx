@@ -11,7 +11,7 @@ const Page2Main = () => {
         height: "874px",
         left: "25px",
         top: "25px",
-        background: "red",
+        background:"#FFFFFF",
       }}
     >
         <div style={{display:"flex"}}>
@@ -23,7 +23,7 @@ const Page2Main = () => {
           height: "875px",
           left: "243px",
           top: "0px",
-          background: "#E8E8E8",
+           background: "#E8E8E8",
 
          
         }}

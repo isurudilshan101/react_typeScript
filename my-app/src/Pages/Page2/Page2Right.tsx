@@ -1,5 +1,7 @@
 import React from 'react';
 import Page2Inputs from './Page2Inputs';
+import Page2TexrArea from './Page2TexrArea';
+
 const Page2Right=()=> {
     return (
         <div style={{ 
@@ -7,13 +9,16 @@ const Page2Right=()=> {
         position: "absolute",
         width: "480px",
         height: "418px",
-        backgroundColor:"blue",
+        backgroundColor:"#FFFFFF",
         top:"25px",
         left: "269px"
            }}
         >
+            <Page2Inputs/> 
+            <Page2TexrArea/>
 
-        <Page2Inputs/> 
+        
+
         
 
         
