@@ -1,8 +1,11 @@
 import React from "react";
+import './Page1.css';
+ 
 import { Input, Space } from "antd";
 import { AudioOutlined } from "@ant-design/icons";
 import { Select } from "antd";
 import { Button } from "antd";
+
 
 const { Search } = Input;
 const { Option } = Select;
@@ -24,7 +27,7 @@ const onSearch = () => console.log();
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <Space direction="vertical">
         <Search
           placeholder="input search text"
@@ -46,8 +49,8 @@ const Header = () => {
         <Option value="Yiminghe">yiminghe</Option>
       </Select>
 
-      <Button type="primary">Search</Button>
-      <Button>+ Add New</Button>
+      <Button className="b1" type="primary">Search</Button>
+      <Button className="add">+ Add New</Button>
     </div>
   );
 };

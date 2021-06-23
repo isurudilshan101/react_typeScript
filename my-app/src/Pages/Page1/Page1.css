@@ -1,0 +1,23 @@
+.b1 {
+    height: 32px;
+    width: 74px;
+    left: 0px;
+    top: px;
+    border-radius: 2px;
+    padding: 5px, 16px, 5px, 16px;
+
+}
+
+.main-container {
+    position: absolute;
+    width: 1620px;
+    height: 874px;
+    left: 25px;
+    top: 25px;
+
+    background: #FFFFFF;
+
+}
+.add{
+    margin-left: 1493px;
+}
